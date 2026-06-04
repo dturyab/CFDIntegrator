@@ -18,6 +18,7 @@ To increase converges rate up to 2nd TVD scheme is implemented:
 ## Comprasion on exact solutions
 ### Sod shock tube comprasion:
 ![Shock tube](https://github.com/dturyab/CFDIntegrator/blob/main/img/SodExactNumericCompr.png)
+
 Convergence to numerical solution(N=1600):
 |N|dx|Dens. $L_1$|Dens. q|Vel. $L_1$|Vel. q|Pres. $L_1$|Pres. q|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -29,6 +30,7 @@ Convergence to numerical solution(N=1600):
 
 ### Sedovproblem comprasion:
 ![Sedov problem](https://github.com/dturyab/CFDIntegrator/blob/main/img/SedovExactNumericCompr.png)
+
 Convergence to exact solution:
 |N|dx|Dens. $L_1$|Dens. q|Pres. $L_1$|Pres. q|
 |:--:|:--:|:--:|:--:|:--:|:--:|
