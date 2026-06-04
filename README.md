@@ -1,4 +1,4 @@
-<img width="65" height="21" alt="image" src="https://github.com/user-attachments/assets/03bfba56-104e-4e13-9268-636fdc627a8c" /># CFDIntegrator
+# CFDIntegrator
 There is a C++ code for numerical integrating of hyperbolic systems of the form: $\frac{\partial \vec U}{\partial t}+\frac{\partial \vec F}{\partial x}=\vec S(\vec U, x)$.
 
 To create the animation of Sod shock-tube(matplotlib and ffmpeg required):
