@@ -52,7 +52,7 @@ $c(D,d,r)=a(D,d)r^{d+1-D},$
 $a(D,d)=\frac{2^{D-d-1}\Gamma \left (\frac{D}{2} \right )}{\Gamma \left (\frac{3}{2} \right )\Gamma \left (\frac{d}{2} \right )},$,
 $\nabla_k^DA=a(D,d)r^{3-D}\nabla_k(r^{d-2}A).$
 
-![Fractional gas dynamics](https://github.com/dturyab/CFDIntegrator/blob/readme/img/9_3579.png)
+![Fractional gas dynamics](https://github.com/dturyab/CFDIntegrator/blob/readme/img/159_9.png)
 
 ![Fractional gas dynamics](https://github.com/dturyab/CFDIntegrator/blob/readme/img/1_13579.png)
 
