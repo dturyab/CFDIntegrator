@@ -1,5 +1,14 @@
 <img width="65" height="21" alt="image" src="https://github.com/user-attachments/assets/03bfba56-104e-4e13-9268-636fdc627a8c" /># CFDIntegrator
 There is a C++ code for numerical integrating of hyperbolic systems of the form: $\frac{\partial \vec U}{\partial t}+\frac{\partial \vec F}{\partial x}=\vec S(\vec U, x)$.
+
+To create the animation of Sod shock-tube(matplotlib and ffmpeg required):
+```
+cmake -G "MinGW Makefiles" -B build -S .
+make -C build
+build\test.exe
+python animation.py
+```
+
 ## Numerical method
 The developed program implements the Godunov method with TVD modification. The Godunov method may be formulatted in the form:
 $$\vec U_i^{n+1}=\vec U_i^n+\frac{\Delta t}{\Delta x}\left ( \vec F_{i-\frac{1}{2}}-\vec F_{i+\frac{1}{2}} \right ),$$
