@@ -60,7 +60,7 @@ $$ \left (\frac{d}{dt}\right)_De+c(D,d,r)\frac{p}{\rho}\nabla^1_ku_k=0,$$
 where $2<D<3$ - volume(mass) dimension, $1<d<2$ - surface dimension, 
 $\left (\frac{d}{dt}\right)_D=\frac{\partial}{\partial t}+c(D,d,r)u_k\nabla _k,$
 $c(D,d,r)=a(D,d)r^{d+1-D},$
-$a(D,d)=\frac{2^{D-d-1}\Gamma \left (\frac{D}{2} \right )}{\Gamma \left (\frac{3}{2} \right )\Gamma \left (\frac{d}{2} \right )},$,
+$a(D,d)=\frac{2^{D-d-1}\Gamma \left (\frac{D}{2} \right )}{\Gamma \left (\frac{3}{2} \right )\Gamma \left (\frac{d}{2} \right )},$
 $\nabla_k^DA=a(D,d)r^{3-D}\nabla_k(r^{d-2}A).$
 
 ![Fractional gas dynamics](https://github.com/dturyab/CFDIntegrator/blob/readme/img/159_9.png)
